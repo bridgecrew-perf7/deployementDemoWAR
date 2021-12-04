@@ -11,4 +11,9 @@ public class MainController {
     public String home() {
         return "Home";
     }
+
+    @GetMapping("/")
+    public String test() {
+        return "test";
+    }
 }
