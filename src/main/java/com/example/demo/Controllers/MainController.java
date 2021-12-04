@@ -12,7 +12,7 @@ public class MainController {
         return "Home";
     }
 
-    @GetMapping("/")
+    @GetMapping("/test")
     public String test() {
         return "test";
     }
