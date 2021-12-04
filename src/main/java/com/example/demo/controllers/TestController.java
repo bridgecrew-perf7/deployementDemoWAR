@@ -10,7 +10,7 @@ public class TestController {
     @GetMapping("/")
     @ResponseBody
     public String home(){
-        return "home";
+        return "Hello World";
     }
 
     @GetMapping("/sample")
